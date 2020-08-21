@@ -37,6 +37,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "com.microsoft.appcenter:appcenter-analytics:3.3.0"
 
+    //Use distribute only for not google play build
     appCenterImplementation "com.microsoft.appcenter:appcenter-distribute:3.3.0"
     googlePlayImplementation "com.microsoft.appcenter:appcenter-distribute-play:3.3.0"
 
